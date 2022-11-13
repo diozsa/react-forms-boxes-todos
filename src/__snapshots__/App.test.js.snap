@@ -4,55 +4,29 @@ exports[`matches snapshot 1`] = `
 <DocumentFragment>
   <div>
     <div>
-      <div>
-        <form>
-          <div>
+      <ul>
+        <div>
+          <form>
             <label
-              for="width"
+              for="task"
             >
-              Width
+              New Task
             </label>
             <input
-              id="width"
-              name="width"
+              id="task"
+              name="task"
+              placeholder="task"
               type="text"
               value=""
             />
-          </div>
-          <div>
-            <label
-              for="height"
-            >
-              Height
-            </label>
-            <input
-              id="height"
-              name="height"
-              type="text"
-              value=""
-            />
-          </div>
-          <div>
-            <label
-              for="color"
-            >
-              Color
-            </label>
-            <input
-              id="color"
-              name="color"
-              type="text"
-              value=""
-            />
-          </div>
-          <button
-            id="addBox"
-          >
-            Add New Box!
-          </button>
-        </form>
-      </div>
+            <button>
+              Add Task!
+            </button>
+          </form>
+        </div>
+      </ul>
     </div>
+    ;
   </div>
 </DocumentFragment>
 `;
